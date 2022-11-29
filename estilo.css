@@ -1,0 +1,44 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#C5C5C5;
+}
+
+/* Carousel */
+.carousel {
+    width: 800px;
+    height: 650px;
+    overflow: hidden;
+}
+
+/* Images */
+.images {
+    display: flex;
+    transform: translateY(0);
+    transition: transform 1s ease-in-out;
+}
+
+/* Controls */
+.controls {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    background-color: #B82BF5;
+    flex-basis: 33%;
+    cursor: pointer;
+}
